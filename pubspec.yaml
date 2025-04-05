@@ -1,0 +1,17 @@
+name: bina_cli
+description: A project and workspace manager for various technologies and IDEs.
+
+version: 0.1.0
+homepage: https://softyes.com.br
+repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  path: ^1.8.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.24.0
+  very_good_analysis: ^7.0.0
