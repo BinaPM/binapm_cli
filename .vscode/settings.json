@@ -1,6 +1,7 @@
 {
+  "makefile.configureOnOpen": false,
   "dart.flutterSdkPath": ".fvm/versions/stable",
   "cSpell.words": [
     "cupertino"
-  ]
+  ],
 }
