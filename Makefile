@@ -4,12 +4,12 @@ default: run
 
 run:
 	@echo "Running CLI..."
-	@dart run ./bin/bina_cli.dart
+	@dart run ./bin/binapm_cli.dart
 
 build:
 	@echo "Building CLI..."
 	@mkdir -p ./build
-	@fvm dart compile exe ./bin/bina_cli.dart -o ./build/bina.exe
+	@fvm dart compile exe ./bin/binapm_cli.dart -o ./build/bina.exe
 	@echo 'export PATH="$$PATH:$$(pwd)/build/"'
 
 upgrade:

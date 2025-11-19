@@ -1,1 +1,7 @@
 include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  errors:
+    avoid_print: ignore
+    abstract_class_member: ignore
+    public_member_api_docs: ignore
