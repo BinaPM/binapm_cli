@@ -2,13 +2,13 @@ import 'dart:async';
 
 import 'package:args/command_runner.dart';
 import 'package:binapm_cli/src/constants.dart';
-import 'package:binapm_cli/src/widgets/stateless_widget.dart';
 import 'package:binapm_cli/src/domain/entities/widget_entity.dart';
 import 'package:binapm_cli/src/repositories/logger_repository.dart';
 import 'package:binapm_cli/src/repositories/updater_repository.dart';
 import 'package:binapm_cli/src/widgets/column_widget.dart';
 import 'package:binapm_cli/src/widgets/row_widget.dart';
 import 'package:binapm_cli/src/widgets/spacer_widget.dart';
+import 'package:binapm_cli/src/widgets/stateless_widget.dart';
 import 'package:binapm_cli/src/widgets/text_widget.dart';
 
 part 'about_widget.dart';
