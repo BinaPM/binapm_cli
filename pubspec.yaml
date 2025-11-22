@@ -1,16 +1,25 @@
 name: binapm_cli
+license: AGPL-3.0
+business: SoftYes TI
+homepage: https://softyes.com.br
+author: João Sereia <joao.sereia@softyes.com.br>
+repository: https://github.com/BinaPM/binapm_cli
 description: A project and workspace manager for various technologies and IDEs.
 
-homepage: https://softyes.com.br
-repository: https://github.com/BinaPM/binapm_cli
+platforms:
+  windows:
 
 version: 0.1.0
 
 environment:
-  sdk: ^3.10.0
+  sdk: ^3.10.1
 
 dependencies:
+  io: ^1.0.5
   path: ^1.8.0
+  args: ^2.7.0
+  github: ^9.25.0
+  mason_logger: ^0.3.3
 
 dev_dependencies:
   lints: ^6.0.0

@@ -1,9 +1,12 @@
 {
   "makefile.configureOnOpen": false,
-  "dart.flutterSdkPath": ".fvm/versions/3.38.2",
+  "dart.flutterSdkPath": ".fvm/versions/3.38.3",
   "cSpell.words": [
+    "ansi",
     "binapm",
     "cupertino",
+    "PMCLI",
+    "pubspec",
     "softyes"
   ]
 }

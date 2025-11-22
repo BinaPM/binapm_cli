@@ -16,7 +16,7 @@ Coming soon...
 [![Made with Dart](https://img.shields.io/badge/language-Dart-green)]((https://dart.dev/))
 [![style: very good analysis](https://img.shields.io/badge/code_style-Very_Good_Analysis-B22C89.svg)](https://pub.dev/packages/very_good_analysis)
 
-* [Dart(>=3.10.0)](https://dart.dev/)
+* [Dart(>=3.10)](https://dart.dev/)
 
 ## 🖥️ Platforms
 
