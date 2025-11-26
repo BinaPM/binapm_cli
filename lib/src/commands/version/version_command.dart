@@ -11,19 +11,20 @@ import 'package:binapm_cli/src/widgets/spacer_widget.dart';
 import 'package:binapm_cli/src/widgets/stateless_widget.dart';
 import 'package:binapm_cli/src/widgets/text_widget.dart';
 
-part 'about_widget.dart';
+part 'version_widget.dart';
 
-final class AboutCommand extends Command<void> {
-  AboutCommand(this._logger, this._updater);
+final class VersionCommand extends Command<void> {
+  VersionCommand(this._logger, this._updater);
 
   final LoggerRepository _logger;
   final UpdaterRepository _updater;
 
   @override
-  String get name => 'about';
+  String get name => 'version';
 
   @override
-  String get description => 'Displays information about the application.';
+  String get description =>
+      'Displays information about version of the application.';
 
   @override
   Future<void> run() async {
@@ -31,7 +32,7 @@ final class AboutCommand extends Command<void> {
     final hasUpdate = await _updater.checkUpdate(latest);
 
     _logger.render(
-      widget: _AboutWidget(
+      widget: _VersionWidget(
         hasUpdate: hasUpdate,
         latestVersion: latest,
       ),

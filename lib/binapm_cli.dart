@@ -3,6 +3,7 @@ library;
 
 import 'package:args/command_runner.dart';
 import 'package:binapm_cli/src/commands/about/about_command.dart';
+import 'package:binapm_cli/src/commands/version/version_command.dart';
 import 'package:binapm_cli/src/constants.dart';
 import 'package:binapm_cli/src/repositories/logger_repository.dart';
 import 'package:binapm_cli/src/repositories/updater_repository.dart';
@@ -25,6 +26,8 @@ final class BinaPMCLI {
     final updater = UpdaterRepositoryImpl(GitHubService());
     final logger = LoggerRepositoryImpl(MasonLoggerService());
 
-    _runner.addCommand(AboutCommand(logger, updater));
+    _runner
+      ..addCommand(AboutCommand(logger, updater))
+      ..addCommand(VersionCommand(logger, updater));
   }
 }
